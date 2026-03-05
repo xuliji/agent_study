@@ -2,4 +2,6 @@
 agent类包
 """
 
-from .OpenAICompatibleClient import OpenAICompatibleClient
+from agent.OpenAICompatibleClient import OpenAICompatibleClient
+from agent.ReActAgent import ReActAgent
+from agent.HelloAgentsLLM import HelloAgentsLLM
